@@ -37,6 +37,8 @@ fn basic_math_operations() {
     let remainder = 4 % 2;
 }
 
+// parameters a and b are a 32-bit signed integer type
 fn add(a: i32, b: i32) -> i32 {
+    // returns a + b -> (a 32-bit signed integer) no need for semicolon! otherwise it's an error
     a + b
 }
