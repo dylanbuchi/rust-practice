@@ -9,7 +9,7 @@ fn data_types() {
 // main function
 fn main() {
     // every variable is immutable by default (we can't assign twice)
-    // use mut to male a variable mutable (we can change the variable value)
+    // use mut to make a variable mutable (we can change the variable value)
     let mut mutable = "Dylan";
     mutable = "Bob";
 
