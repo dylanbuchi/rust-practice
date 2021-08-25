@@ -27,6 +27,22 @@ fn main() {
     } else {
         println!("{}", false);
     }
+
+    // infinite loop
+    let mut count = 0;
+
+    loop {
+        if count == 5 {
+            break;
+        }
+        count += 1;
+        println!("{}", count);
+    }
+    // classic while loop
+    while count != 0 {
+        count -= 1;
+        println!("{}", count);
+    }
 }
 
 fn basic_math_operations() {
