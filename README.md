@@ -1,2 +1,3 @@
 # rust-practice
-repo to practice Rust
+
+Repo to practice the Rust programming language
