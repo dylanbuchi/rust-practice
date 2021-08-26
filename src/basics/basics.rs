@@ -43,6 +43,11 @@ fn main() {
         count -= 1;
         println!("{}", count);
     }
+
+    // match
+    let mut number = 1;
+    number = 45;
+    check_number(&number);
 }
 
 fn basic_math_operations() {
@@ -57,4 +62,14 @@ fn basic_math_operations() {
 fn add(a: i32, b: i32) -> i32 {
     // returns a + b -> (a 32-bit signed integer) no need for semicolon! otherwise it's an error
     a + b
+}
+
+fn check_number(&number: &u32) {
+    match number {
+        // match is better to use over else if and the '_' underscore mean it's everything else
+        1 => println!("it's number 1"),
+        2 => println!("it's number  2"),
+        3 => println!("it's number  3"),
+        _ => println!("it's another number"),
+    }
 }
