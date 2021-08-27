@@ -28,22 +28,6 @@ fn main() {
         println!("{}", false);
     }
 
-    // infinite loop
-    let mut count = 0;
-
-    loop {
-        if count == 5 {
-            break;
-        }
-        count += 1;
-        println!("{}", count);
-    }
-    // classic while loop
-    while count != 0 {
-        count -= 1;
-        println!("{}", count);
-    }
-
     // match
     let mut number = 1;
     number = 45;
